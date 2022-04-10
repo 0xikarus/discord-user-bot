@@ -4,7 +4,7 @@ function sleep(ms) => new Promise(resolve => setTimeout(resolve, ms));
 /* This example shows how to set the bot up so it automatically bumps a server on disboard */
 
 var bump_channels = [{
-    channel_id: "846894203296284734",
+    channel_id: "0",
     last_bump: 0
 }]
 var bump_interval = false;
